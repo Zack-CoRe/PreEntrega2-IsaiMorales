@@ -29,6 +29,10 @@ header nav ul li a{
     font-weight: bold;
 }
 
+header nav ul li a:hover{
+    text-decoration: none;
+    color: #0a6bb2;
+}
 
 
 .img-header {
@@ -75,6 +79,12 @@ header nav ul li a{
 .destacado-p h3 {
     margin-top: 25px;
     font-size: 16px;
+    color: #0a6bb2;
+}
+
+.destacado-p h3:hover{
+    margin-top: 25px;
+    font-size: 20px;
     color: #0a6bb2;
 }
 
