@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*----HEADER----*/
+header {
+    background-color: #fff;
+}
+
+header nav ul{
+    list-style: none;
+    text-align: right;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #140e0c;
+    font-weight: bold;
+}
+
+
+
+.img-header {
+    width: 170px;
+    height: auto;
+}
+/*----MAIN----*/
+
+.hero {
+    width: 100%;
+    height: 80vh;
+}
+
+.carousel-item {
+    height: 80vh;
+}
+
+.img-acerca-de {
+    width: 70%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.acerca-de h4,p {
+    text-align: left;
+}
+
+.destacado {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #f4f4f4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.destacado-p a {
+    text-decoration: none;
+}
+
+.destacado-p h2 {
+    color: #140e0c;
+}
+.destacado-p h3 {
+    margin-top: 25px;
+    font-size: 16px;
+    color: #0a6bb2;
+}
+
+.ubiquenos {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.ubiquenos h2 {
+    margin-bottom: 25px;
+}
+.ubiquenos img {
+    width: 18px;
+    height: auto;
+}
+
+.iconos-contacto p {
+    display: inline;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.iconos-contacto {
+    text-align: left;
+    padding-bottom: 15px;
+}
+/*----FOOTER----*/
+
+.contactos {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.contactos img{
+    width: 24px;
+    height: auto;
+}
+
+.contactos p {
+    margin-bottom: 0;
+}
